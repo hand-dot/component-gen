@@ -17,7 +17,7 @@ export function generateComponent(options: ComponentOptions): Rule {
   return () => {
     const path = `${options.path}/${strings.classify(options.name)}`;
 
-    const templateSource = apply(url("./files"), [
+    const templateSource = apply(url("../files/react"), [
       template({ ...strings, ...options }),
       move(path)
     ]);

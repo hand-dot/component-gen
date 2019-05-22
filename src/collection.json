@@ -1,9 +1,9 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "component-gen": {
-      "description": "A blank schematic.",
-      "factory": "./component-gen/index#generateComponent"
+    "react": {
+      "description": "Generate react component with storybook and unit test file by schematics",
+      "factory": "./component-gen/react/index#generateComponent"
     }
   }
 }
