@@ -19,3 +19,5 @@ in `package.json`
 # usage
 
 `$ npm run gen -- --name=Header --path=src/components`
+
+![](https://github.com/hand-dot/component-gen/blob/master/component-gen.gif)
