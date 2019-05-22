@@ -1,6 +1,6 @@
 {
   "name": "component-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generate react component with storybook and unit test file by schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
