@@ -1,3 +1,5 @@
+# developing...!
+
 # component-gen
 
 Generate react component with storybook and unit test(snapshot by enzyme) file by schematics
@@ -19,5 +21,15 @@ in `package.json`
 # usage
 
 `$ npm run gen -- --name=Header --path=src/components`
+
+```
+$ tree src/components/Header/
+
+src/components/Header/
+├── Header.jsx
+├── Header.stories.js
+├── Header.test.js
+└── index.js
+```
 
 ![](https://github.com/hand-dot/component-gen/blob/master/component-gen.gif)
