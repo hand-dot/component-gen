@@ -1,6 +1,6 @@
 # component-gen
 
-Generate react component with storybook and unit test file by schematics
+Generate react component with storybook and unit test(snapshot by enzyme) file by schematics
 
 # install
 
