@@ -1,24 +1,11 @@
-# developing...!
+**under development**
 
 # component-gen
 
 Generate react component with storybook and unit test(snapshot by enzyme) file by schematics
 
-# install
 
-`$ npm install --save-dev @angular-devkit/schematics-cli component-gen`
-
-# setup
-
-in `package.json`
-
-```
-  "scripts": {
-    "gen": "schematics component-gen:react"
-  }
-```
-
-# usage
+# Usage
 
 `$ npm run gen -- --name=Header --path=src/components`
 
@@ -33,3 +20,17 @@ src/components/Header/
 ```
 
 ![](https://github.com/hand-dot/component-gen/blob/master/component-gen.gif)
+
+# Install
+
+`$ npm install --save-dev @angular-devkit/schematics-cli component-gen`
+
+# Setup
+
+in `package.json`
+
+```
+  "scripts": {
+    "gen": "schematics component-gen:react"
+  }
+```
