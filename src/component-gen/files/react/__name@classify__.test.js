@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import toJson from "enzyme-to-json";
 import { shallow } from "enzyme";
-import <%= classify(name) %> from "./<%= classify(name) %>";
+import { <%= classify(name) %> } from "./<%= classify(name) %>";
 
 describe('<%= classify(name) %>', () => {
     it("renders without crashing", () => {
