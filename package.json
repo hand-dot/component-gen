@@ -1,11 +1,12 @@
 {
-  "name": "generate-component",
-  "version": "0.0.0",
-  "description": "A blank schematics",
+  "name": "component-gen",
+  "version": "0.0.1",
+  "description": "generate react component with storybook and unit test file by schematics",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "npm run build && jasmine src/**/*_spec.js"
   },
+  "main": "src/collection.json",
   "keywords": [
     "schematics"
   ],
