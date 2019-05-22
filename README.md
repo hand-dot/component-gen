@@ -1,28 +1,21 @@
-# Getting Started With Schematics
+# component-gen
 
-This repository is a basic Schematic implementation that serves as a starting point to create and publish Schematics to NPM.
+generate react component with storybook and unit test file by schematics
 
-### Testing
+# install
 
-To test locally, install `@angular-devkit/schematics-cli` globally and use the `schematics` command line tool. That tool acts the same as the `generate` command of the Angular CLI, but also has a debug mode.
+`$ npm install --save-dev @angular-devkit/schematics-cli component-gen`
 
-Check the documentation with
-```bash
-schematics --help
+# setup
+
+in `package.json`
+
+```
+  "scripts": {
+    "gen": "schematics component-gen:react"
+  }
 ```
 
-### Unit Testing
+# usage
 
-`npm run test` will run the unit tests, using Jasmine as a runner and test framework.
-
-### Publishing
-
-To publish, simply do:
-
-```bash
-npm run build
-npm publish
-```
-
-That's it!
- 
+`$ npm run gen -- --name=Header --path=src/components`
